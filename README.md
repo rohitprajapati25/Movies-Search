@@ -4,9 +4,6 @@ Created with CodeSandbox(Online Editor)
 Click And Check My Movie Search Preview <a href="http://zsxypv.csb.app">🔗Link</a>
 
 
-# Movies Search
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rohitprajapati25/Movies-Search)
-
 A simple and responsive movie search application built with React, TypeScript, and Tailwind CSS. This project allows users to search for movies using the OMDb API and view the results in a clean, grid-based layout.
 
 ### [➡️ Live Demo](http://zsxypv.csb.app)
@@ -22,10 +19,10 @@ A simple and responsive movie search application built with React, TypeScript, a
 
 ## Technology Stack
 
-- **Frontend**: React, TypeScript
+- **Frontend**: React
 - **Styling**: Tailwind CSS (via CDN)
 - **API**: OMDb API
-- **Tooling**: Create React App, CodeSandbox
+- **Tooling**: Create React App Using CodeSandbox
 
 ## Getting Started
 
@@ -52,15 +49,4 @@ To run this project locally, follow these steps:
     ```
     The application will be available at `http://localhost:3000`.
 
-## API Configuration
-
-This project uses a hardcoded API key for the OMDb API in `src/App.tsx`.
-
-```typescript
-// src/App.tsx
-const res = await fetch(
-  `https://www.omdbapi.com/?s=${query}&apikey=e76f4147`
-);
-```
-
-For personal or production use, it is recommended to obtain your own free API key from the [OMDb API website](https://www.omdbapi.com/apikey.aspx) and replace the existing one.
+ 
